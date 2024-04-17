@@ -14,4 +14,7 @@ f.readline()
 kolcsonzesek = []
 for sor in f:  
     tmp = sor.strip().split(';')
+    kolcsonzesek.append(Kolcson(tmp[0],tmp[1],tmp[2],tmp[3],tmp[4],tmp[5]))
     print(sor)  
+for kolcsonzo in kolcsonzesek:
+    print(kolcsonzo)
