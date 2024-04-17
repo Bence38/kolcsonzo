@@ -19,5 +19,11 @@ for sor in f:
     #print(sor)  
 for kolcsonzo in kolcsonzesek:
     print(kolcsonzo)
+print('5.feladat')
 print(f'Napi kölcsönzések száma: {len(kolcsonzesek)}')
+print('6.feladat')
+nev = input('Kérek egy nevet:')
+if nev == tmp[0]:
+    print('Kata kölcsönzései')
+    print(tmp[3],tmp[4],tmp[5])
 
